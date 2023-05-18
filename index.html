@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="btn"><button onclick="search()">Search by Name</button></div>
+        <div class="main">
+            <div class="row">
+                <div class="input">
+                    <input type="date" id="inp">
+                </div>
+                <div class="festName">
+                    <h1 id="festival">Festival Name</h1>
+                    <p id="staus"></p>
+                    <div class="btn"><button onclick="find()">Find Festival</button></div>
+                </div>
+            </div>
+            <div class="row2">
+                <img src="https://planetcode.in/assets/images/default-image-png-9-300x200.png" id="festivalImg" alt="Enter any festival to see the image">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
